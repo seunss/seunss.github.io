@@ -1,4 +1,4 @@
-header, footer, nav, article, section, figure, figcaption, h1, h2, h3, ul, li, body, div, p, img
+header, footer, nav, article, section, figure, figcaption, h2, h3, ul, li, body, div, p, img
 {
    margin: 0;
    padding: 0;
@@ -8,24 +8,29 @@ header, footer, nav, article, section, figure, figcaption, h1, h2, h3, ul, li, b
 }
 
 h1, h2, h3 {
- font-family: Georgia, Cambria, "Times New Roman", cursive;
+    font-family: Lobster, Georgia, Cambria, "Times New Roman", cursive;
 }
 h1 { 
    font-size: 250%;
    text-transform:	uppercase;
    letter-spacing:	10px; 
    text-shadow:	3px	3px	3px	rgba(0,0,0,0.3);
+   
 
 } 
+#title {
+    text-align: center;
+}
 
 body {
  font-family: Helvetica, Arial, sans-serif;
+ background-color:  rgb(13, 142, 228);
 }
 
 div { 
    margin: 2em; 
    padding: 1em;
-   background-color: blue;
+   background-color: rgb(13, 142, 228);
 }
 p	{
    margin-bottom:	0.5em;
@@ -35,7 +40,3 @@ p#first	{
    text-align:	right;
 }
 
-p#second	{
-   text-indent:	2em;
-   line-height:	1.5em;
-}
