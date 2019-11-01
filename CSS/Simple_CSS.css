@@ -1,4 +1,4 @@
-header, footer, nav, article, section, figure, figcaption, h2, h3, ul, li, body, div, p, img
+header, footer, nav, section, figure, figcaption, h2, h3, ul, li, body, div, p, img
 {
    margin: 0;
    padding: 0;
@@ -31,6 +31,13 @@ div {
    margin: 2em; 
    padding: 1em;
    background-color: rgb(13, 142, 228);
+}
+div nav{
+    text-align: left;
+}
+article{
+    text-align: left;
+    margin: 12px;
 }
 p	{
    margin-bottom:	0.5em;
